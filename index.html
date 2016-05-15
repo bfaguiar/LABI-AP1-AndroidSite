@@ -1,0 +1,611 @@
+<html>
+<head>
+  <meta charset = "UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="A front-end template that helps you build fast, modern mobile web apps.">
+    <meta name = "theme.color" content = "#444851"/>
+
+<!-- ESTILOS DA PÁGINA -->
+    <link rel="stylesheet" href="estilos/material.css">
+    <script src="scripts/material.js"></script>
+     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="estilos/font.css" type="text/css">
+    <script src = "http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"> </script>
+
+<title>  Android </title>
+<link rel="shortcut icon" type="image/x-icon" href="imagens/google_android.png" />
+  <style type="text/css">
+
+  #footerstyle {
+    position: relative;
+  }
+  #fixed {
+  position: fixed;
+  z-index: 999;
+  bottom: 0;
+  right: 0;
+}
+
+#relativo {
+  position: relative;
+  top: 150px;
+  left: 50px;
+}
+
+#pos1 {
+  display: flex;
+  flex-direction: column;
+  font-size: 16px;
+  font-weight: 400;
+  min-height: 200px;
+  overflow: hidden;
+  width: 800px;
+  z-index: 1;
+  position: relative;
+  border-radius: 2px;
+  box-sizing: border-box;
+  align-self: center;
+  width: 100%;
+  margin: 25 50px;
+
+}
+
+#pos2 {
+  position: relative;
+  bottom: -80px;
+  left: 1000px;
+}
+
+#pos3 {
+  position: relative;
+  bottom: 1000px;
+  left: 1000px;
+}
+
+#size {
+  position: relative;
+  top: 200px;
+  left: 1185px;
+  width: 650px;
+  height: 650px;
+
+
+}
+
+#dim {
+  width: 45px;
+  height: 45px;
+}
+
+#dim2 {
+  width: 200px;
+  height: 45px;
+}
+
+#space {
+    top: 4px;
+    left: -4px;
+    font-family: Android;
+    font-size: 35px;
+}
+@font-face {
+  font-family: 'Android';
+  font-style: normal;
+  font-weight: 500;
+  src: url(Android.ttf);
+}
+.bg1 {
+  background:url("imagens/wall1.jpg");
+   background-size: cover;
+}
+
+
+</style>
+
+</head>
+<body bgcolor ="#E8E8E8">
+
+  <!-- BARRA DE NAVEGAÇÂO ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+  <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header mdl-layout--fixed-tabs"; id="fixed";>
+    <header class="mdl-layout__header">
+      <div class="mdl-layout__header-row">
+        <!-- Título -->
+        <span class="mdl-layout-title" id = "space">ANDROID</span>
+      </div>
+      <!-- Tabs -->
+      <div class="mdl-layout__tab-bar mdl-js-ripple-effect">
+        <a href="#fixed-tab-1" class="mdl-layout__tab is-active">HOME </a>
+        <a href="#fixed-tab-2" class="mdl-layout__tab">ACERCA </a>
+
+
+      </div>
+    </header>
+    <div class="mdl-layout__drawer">
+      <span class="mdl-layout-title">MENU</span>
+      <nav class="mdl-navigation">
+        <div></div>
+        <a class="mdl-navigation__link" href="index.html">HOME</a>
+        <a class="mdl-navigation__link" href="GOOGLE_ANDROID.html">GOOGLE E ANDROID</a>
+        <a class="mdl-navigation__link" href="AOPS%20E%20CUSTOM%20ROMS.html">AOSP E CUSTOM ROMS</a>
+        <a class="mdl-navigation__link" href="COMUNIDADES.html">COMUNIDADES</a>
+        <a class="mdl-navigation__link" href="KERNELS.html">KERNELS</a>
+        <a class="mdl-navigation__link" href="RUNTIME.html">RUNTIME</a>
+        <a class="mdl-navigation__link" href="DISTRIBUIÇÕESANDROID.html">DISTRIBUIÇÕES ANDROID</a>
+        <a class="mdl-navigation__link" href="ANDROIDWEARAUTOTV.html">ANDROID WEAR/AUTO/TV</a>
+        <a class="mdl-navigation__link" href="bioref.html">REFERÊNCIAS BIBLIOGRÁFICAS</a>
+
+      </nav>
+    </div>
+    <main class="mdl-layout__content ">
+      <section class="mdl-layout__tab-panel is-active" id="fixed-tab-1" class = "bg1" >
+        <div class="page-content">
+
+          <br>
+          <h1 class = "mdl-typography--text-center"; style = "color: #303030">Bem-Vindo à página Android... </h1>
+
+
+
+      <!-- ESTILO DOS CARTÕES -->
+
+      <style>
+      .demo-card-wide.mdl-card {
+        width: 512px;
+      }
+      .demo-card-wide > .mdl-card__title {
+        color: #E8E8E8;
+        height: 176px;
+        background: url("imagens/bg1.jpg") center / cover;
+      }
+      .demo-card-wide > .mdl-card__menu {
+        color: #E8E8E8;
+      }
+
+      .demo-card-wide2 > .mdl-card__title {
+        color: #E8E8E8;
+        height: 176px;
+        background: url("imagens/bg2.jpg") center / cover;
+      }
+
+      .demo-card-wide3 > .mdl-card__title {
+        color: #E8E8E8;
+        height: 176px;
+        background: url("imagens/aosp.jpg") center / cover;
+      }
+
+      .demo-card-wide4 > .mdl-card__title {
+        color: #E8E8E8;
+        height: 176px;
+        background: url("imagens/bg3.jpg") center / cover;
+      }
+
+      .demo-card-wide5 > .mdl-card__title {
+        color: #E8E8E8;
+        height: 176px;
+        background: url("imagens/vm.jpg") center / cover;
+      }
+
+      .demo-card-wide6 > .mdl-card__title {
+        color: #E8E8E8;
+        height: 176px;
+        background: url("imagens/bg4.jpg") center / cover;
+      }
+
+      .demo-card-wide7 > .mdl-card__title {
+        color: #E8E8E8;
+        height: 176px;
+        background: url("imagens/wear.jpg") center / cover;
+      }
+
+
+      </style>
+
+
+      <!-- CARTÃO HOME -->
+
+
+      <div class = " mdl-grid mdl-cell mdl-cell--12-col mdl-cell--6-col-tablet mdl-cell--4-col-phone">
+      <div class="demo-card-wide mdl-card mdl-shadow--2dp mdl-cell mdl-cell--6-col" id = "pos1">
+        <div class="mdl-card__title">
+          <h2 class="mdl-card__title-text">Introdução</h2>
+        </div>
+        <div class="mdl-card__supporting-text">
+
+          <h4> O fascínio pelos sistemas mobiles... </h4>
+          A tecnologia mobile evolui a um ritmo exponencial, aumentando cada vez mais
+a sua importância, quer na vida quotidiana, quer no mundo empresarial. Atu-
+almente os sistemas operacionais móveis são capazes de fazer inúmeras tarefas
+através das suas inúmeras funcionalidades. Tudo isto faz provoca um entusiasmo enorme pois podemos ter quase um "mini-pc" e utilizá-lo em qualquer lugar!
+
+        <h4> Porquê Android? </h4>
+        O Android é um dos sistemas operacionais mobile que mais tem evoluido, refletindo isso na sua grande comunidade, que é a maior comunidade em termos de
+tecnologia móvel, possuindo inúmeras versões alteradas do sistema, bem como
+as suas costumizações infinitas, desenvolvidas por milhares de desenvolvedores.
+É um sistema Open-Source que possui sistemas de controlo próprio como o Git e Repo!
+
+        </div>
+        <div class="mdl-card__actions mdl-card--border">
+         <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="https://www.android.com/">
+           <img src = "imagens/android.png"> ANDROID SITE
+         </a>
+         <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="http://developer.android.com/index.html">
+           <img src = "imagens/android-studio.png"> ANDROID DEVELOPERS
+         </a>
+         <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="https://developers.google.com/?hl=pt-pt">
+           <img src = "imagens/xml.png">
+           GOOGLE DEVELOPERS
+         </a>
+         <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href = "https://github.com/google">
+           <img src = "imagens/github.png">
+           GITHUB
+         </a>
+
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+  <div class = " mdl-grid mdl-cell mdl-cell--12-col mdl-cell--6-col-tablet mdl-cell--4-col-phone">
+  <div class="demo-card-wide2 mdl-card mdl-shadow--2dp mdl-cell mdl-cell--6-col" id = "pos1">
+    <div class="mdl-card__title">
+      <h2 class="mdl-card__title-text">Google e Android</h2>
+    </div>
+    <div class="mdl-card__supporting-text">
+
+      <h4> Google </h4>
+      A Google Inc. é uma empresa de serviços online e software sediada em Mountain View, Estados Unidos. Em 2005, a
+Google adquire a Android Inc., empresa fundada em 2003 por...
+
+    <h4> Android </h4>
+“O objetivo do Android é criar uma plataforma de software aberto disponível para empresas e desenvolvedores para tornar as suas
+próprias ideias criativas em realidade e para implementar um produto em que as pessoas necessitam de modo a crescer a experiência
+móvel para os utilizadores Android”, tal como a Google indica.
+
+    </div>
+    <div class="mdl-card__actions mdl-card--border">
+     <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="GOOGLE_ANDROID.html">
+       <img src = "imagens/read.png"> CLICA AQUI PARA LER MAIS!
+     </a>
+
+  </div>
+</div>
+</div>
+
+
+
+
+
+<div class = " mdl-grid mdl-cell mdl-cell--12-col mdl-cell--6-col-tablet mdl-cell--4-col-phone">
+<div class="demo-card-wide3 mdl-card mdl-shadow--2dp mdl-cell mdl-cell--6-col" id = "pos1">
+  <div class="mdl-card__title">
+    <h2 class="mdl-card__title-text">AOSP e Custom ROMs</h2>
+  </div>
+  <div class="mdl-card__supporting-text">
+
+    <h4> AOSP </h4>
+    Android Open Source Project (AOSP) é o produto final resultante do desenvolvimento da Google e da Open Handset Alliance em parceria com várias
+    empresas que ajudam a desenvolver e a optimizar o sistema operativo para diferentes modelos de hardware. Como já vimos anteriormente, o AOSP tem como
+    base Linux Kernel e é programado em diferentes linguagens como, por exemplo, Java, C, C++ e Python.
+
+  <h4> Custom ROMs </h4>
+  Custom ROMs, são ROMs modificadas da ROM AOSP por empresas com projetos ligados ao Android ou por milhares de desenvolvedores independentes.
+  CyanogenMod é o projeto responsável pela criação e desenvolvimento de Custom ROMs, as tais versões Android Costumizadas, e, segundo a Cyanogen
+Inc, está presente em cerca de mais de 50 milhões de dispositivos, ultrapassando...
+
+  </div>
+  <div class="mdl-card__actions mdl-card--border">
+   <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="AOPS%20E%20CUSTOM%20ROMS.html">
+     <img src = "imagens/read.png"> LER MAIS!
+   </a>
+   <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="https://code.google.com/p/git-repo/wiki/Source?tm=4">
+     <img src = "imagens/android-studio.png"> ANDROID REPO
+   </a>
+   <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="https://cyngn.com/">
+     <img src = "imagens/xml.png">
+     CYANOGEN SITE
+   </a>
+   <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href = "http://review.cyanogenmod.org/#/q/status:open">
+     <img src = "imagens/github.png">
+     CYANOGEN REPO
+   </a>
+
+</div>
+</div>
+</div>
+
+
+
+<div class = " mdl-grid mdl-cell mdl-cell--12-col mdl-cell--6-col-tablet mdl-cell--4-col-phone">
+<div class="demo-card-wide4 mdl-card mdl-shadow--2dp mdl-cell mdl-cell--6-col" id = "pos1">
+  <div class="mdl-card__title">
+    <h2 class="mdl-card__title-text">Comunidades</h2>
+  </div>
+  <div class="mdl-card__supporting-text">
+    <h4> XDA, Google+ e GitHub </h4>
+    Devido ao Android ser um sistema Open Source, possui, naturalmente características dos projetos Open Source e uma vasta rede de comunidades de
+    variados assuntos e áreas de android, como, por exemplo, comunidades sobre diversas aplicações, Custom ROMs (versões modificadas do Android Open Source
+    Project), Custom Kernel’s (Kernel’s modificados por desenvolvedores e programadores) e diversos mod’s, que são pequenas aplicações que modificam algo no
+    sistema.
+    São exemplos de comunidades a XDA Developers, GitHub e as comunidades da rede social Google+...
+
+  </div>
+  <div class="mdl-card__actions mdl-card--border">
+   <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="COMUNIDADES.html">
+     <img src = "imagens/read.png"> LER MAIS!
+   </a>
+   <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="http://www.xda-developers.com/">
+     <img src = "imagens/xda.png"> XDA DEVELOPERS
+   </a>
+   <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="https://plus.google.com/">
+     <img src = "imagens/google.png">
+     GOOGLE+
+   </a>
+   <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href = "https://github.com/">
+     <img src = "imagens/github.png">
+     GITHUB
+   </a>
+
+</div>
+</div>
+</div>
+
+<div class = " mdl-grid mdl-cell mdl-cell--12-col mdl-cell--6-col-tablet mdl-cell--4-col-phone">
+<div class="demo-card-wide3 mdl-card mdl-shadow--2dp mdl-cell mdl-cell--6-col" id = "pos1">
+  <div class="mdl-card__title">
+    <h2 class="mdl-card__title-text"> Kernels</h2>
+  </div>
+  <div class="mdl-card__supporting-text">
+    <h4> Kernel </h4>
+    O kernel é um dos mais importantes componentes de um sistema operativo, sendo o responsável pela interação entre o software e o hardware, ou seja, é
+    o kernel que controla os recursos de um sistema permitindo que os programas façam uso deles.
+    <h4> Custom Kernels </h4>
+    Apesar de o Kernel já vir dentro do firmware, este pode ser também desenvolvido à parte e instalado "por cima" da ROM
+    que o utilizador possui. Um Custom Kernel pode ser desenvolvido e optimizado de modo a melhorar a performance,
+    estabilidade, fluidez e bateria do sistema Android. Estas melhorias pode ser são obtidas através...
+
+  </div>
+  <div class="mdl-card__actions mdl-card--border">
+   <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="KERNELS.html">
+     <img src = "imagens/read.png"> LER MAIS!
+   </a>
+
+</div>
+</div>
+</div>
+
+<div class = " mdl-grid mdl-cell mdl-cell--12-col mdl-cell--6-col-tablet mdl-cell--4-col-phone">
+<div class="demo-card-wide5 mdl-card mdl-shadow--2dp mdl-cell mdl-cell--6-col" id = "pos1">
+  <div class="mdl-card__title">
+    <h2 class="mdl-card__title-text"> Runtime </h2>
+  </div>
+  <div class="mdl-card__supporting-text">
+    <h4> Dalvik </h4>
+Até ao Android 4.4.4 (Kitkat), o sistema operativo usava como sistema de emulação, uma máquina virtual criada pela
+Google, chamada de Dalvik.
+    <h4> ART </h4>
+A Google necessitou de criar um novo runtime, o ART. Em comparação com o Dalvik, o ART utiliza um sistema de
+compilação "Ahead-of-Time", compilando os códigos de execução na altura em que as aplicações são instaladas.
+  </div>
+  <div class="mdl-card__actions mdl-card--border">
+   <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="RUNTIME.html">
+     <img src = "imagens/read.png"> LER MAIS!
+   </a>
+
+</div>
+</div>
+</div>
+
+<div class = " mdl-grid mdl-cell mdl-cell--12-col mdl-cell--6-col-tablet mdl-cell--4-col-phone">
+<div class="demo-card-wide6 mdl-card mdl-shadow--2dp mdl-cell mdl-cell--6-col" id = "pos1">
+  <div class="mdl-card__title">
+    <h2 class="mdl-card__title-text"> Distribuições Android </h2>
+  </div>
+  <div class="mdl-card__supporting-text">
+    Desde 2008, ano do lançamento do primeiro smartphone equipado com o
+    sistema android, este tem vindo a sofrer inúmeras atualizações que acrescentam
+    sempre algo de novo e melhor ao sistema e corrigem erros presentes em versões mais antigas.
+    A cada grande atualização o seu code name muda, em ordem alfabética, entre nomes de doces.
+  </div>
+  <div class="mdl-card__actions mdl-card--border">
+   <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="DISTRIBUIÇÕESANDROID.html">
+     <img src = "imagens/read.png"> LER MAIS!
+   </a>
+
+</div>
+</div>
+</div>
+
+
+<div class = " mdl-grid mdl-cell mdl-cell--12-col mdl-cell--6-col-tablet mdl-cell--4-col-phone">
+<div class="demo-card-wide7 mdl-card mdl-shadow--2dp mdl-cell mdl-cell--6-col" id = "pos1">
+  <div class="mdl-card__title">
+    <h2 class="mdl-card__title-text"> Android Wear/Auto/TV </h2>
+  </div>
+  <div class="mdl-card__supporting-text">
+    <h4> Android Wear </h4>
+    O sistema tem como objetivo facilitar a vida do utilizador mostrando certas
+informações num relógio inteligente!
+<h4> Android Auto </h4>
+Em junho de 2014 a Google anunciou o Android Auto, um sistema operaci-
+onal desenvolvido para carros e baseado em Android
+<h4> Android TV </h4>
+O sistema da grande ênfase à função de pesquisa por
+voz, podendo ser ainda controlado pelo comando da televisão, pelo smartphone
+ou ainda...
+
+  </div>
+  <div class="mdl-card__actions mdl-card--border">
+   <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="ANDROIDWEARAUTOTV.html">
+     <img src = "imagens/read.png"> LER MAIS!
+   </a>
+
+</div>
+</div>
+</div>
+
+
+<br>
+<br> <!-- espaço para a card e footer -->
+<br>
+<footer class="mdl-mini-footer"; id = "footerstyle";>
+    <div class="mdl-mini-footer__left-section">
+      <div class="mdl-logo">Android</div>
+      <ul class="mdl-mini-footer__link-list">
+    </ul>
+    <a href="http://wwww.ua.pt/">
+      <img src="imagens/ua.png" id = "dim2">
+    </a>
+    </div>
+  </footer>
+
+      </section>
+      <section class="mdl-layout__tab-panel" id="fixed-tab-2">
+        <div class="page-content">
+          <div class="mdl-cell mdl-cell--6-col mdl-cell--2-col-phone mdl-cell--6-col-tablet">
+            <!-- Image card -->
+<style>
+.demo-card-image.mdl-card {
+  width: 256px;
+  height: 256px;
+  left: 50px;
+  top: 50px;
+  background: url('http://s21.postimg.org/taz2js7lf/joao.jpg') center / cover;
+}
+.demo-card-image > .mdl-card__actions {
+  height: 52px;
+  padding: 16px;
+  background: rgba(0, 0, 0, 0.2);
+}
+.demo-card-image__filename {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+}
+</style>
+
+
+<div class="demo-card-image mdl-card mdl-shadow--2dp" >
+  <div class="mdl-card__title mdl-card--expand"></div>
+  <div class="mdl-card__actions">
+    <span class="demo-card-image__filename">João Teixeira</span>
+  </div>
+</div>
+            <br>
+            <br>
+            <br>
+            <p id = "pos1" class = "mdl-typography--text-justify"> João Teixeira nasceu a 23 de Janeiro de 1997 no conselho de Marco de Canaveses e desde muito pequeno
+      				se interessa por tecnologia.
+      				Aos 17 anos decubriu a programação, tendo em 2015 ganho o concurso de programção Scratch do Instituto
+      				Politécnico de Setúbal, nesse mesmo ano terminou o secundário e entrou no curso de Engenharia de
+      				Computadores e Telemática da Universidade de Aveiro.
+              Anda no curso de Engenharia de Computadores e Telemática, na Universidade de Aveiro
+              Autoavaliação: Penso que contribuí para a construção do website, Participação de 90%</p>
+
+              <style>
+              .demo-card-image2.mdl-card {
+                width: 256px;
+                height: 256px;
+                left: 50px;
+                top: 0px;
+                background: url('https://scontent-mad1-1.xx.fbcdn.net/hphotos-xft1/v/t34.0-12/12576003_1199892926707480_123038959_n.jpg?oh=1f759c785ab9156cf126dc9319ccab6c&oe=56A22A6A') center / cover;
+              }
+              .demo-card-image2 > .mdl-card__actions {
+                height: 52px;
+                padding: 16px;
+                background: rgba(0, 0, 0, 0.2);
+              }
+              .demo-card-image__filename {
+                color: #fff;
+                font-size: 14px;
+                font-weight: 500;
+              }
+              </style>
+
+
+              <div class="demo-card-image2 mdl-card mdl-shadow--2dp" >
+                <div class="mdl-card__title mdl-card--expand"></div>
+                <div class="mdl-card__actions">
+                  <span class="demo-card-image2__filename">Bruno Castro</span>
+                </div>
+              </div>
+              <br>
+
+              <p id="pos1" class = "mdl-typography--text-justify"> Bruno Castro nasceu no final de novembro do ano de 1997 na cidade mais bela do país, Porto, e, desde logo, despertou nele o interesse pela tecnologia.
+              Atualmente, sem qualquer obra de muito valor, mas espera um dia revolucionar o mundo da informática!
+              Anda no curso de Engenharia de Computadores e Telemática, na Universidade de Aveiro
+              Autoavaliação: Penso que contribuí para boa parte da construção do website, Participação de 90% </p>
+
+              <style>
+              .demo-card-image3.mdl-card {
+                width: 256px;
+                height: 256px;
+                left: 50px;
+                top: 0px;
+                background: url('https://scontent-mad1-1.xx.fbcdn.net/hphotos-frc3/v/t1.0-9/10801796_1475976982649168_6699883012164205760_n.jpg?oh=be051ef36b10f2442529a6a2a0e39c00&oe=573675EF') center / cover;
+              }
+              .demo-card-image3 > .mdl-card__actions {
+                height: 52px;
+                padding: 16px;
+                background: rgba(0, 0, 0, 0.2);
+              }
+              .demo-card-image3__filename {
+                color: #fff;
+                font-size: 14px;
+                font-weight: 500;
+              }
+
+              #bt1 {
+                top: 0px;
+                left: 0px;
+              }
+              </style>
+
+
+              <div class="demo-card-image3 mdl-card mdl-shadow--2dp" >
+                <div class="mdl-card__title mdl-card--expand"></div>
+                <div class="mdl-card__actions">
+                  <span class="demo-card-image3__filename">Bruno Aguiar </span>
+                </div>
+              </div>
+              <br>
+              <p id="pos1" class = "mdl-typography--text-justify"> Bruno Aguiar nasceu em Vila Real no dia 25 de janeiro de 1997, foi cedo quando foi mordido pelo bichinho da informática e desde aí nunca parou de teclar.
+                Neste momento está a desenvolver um promissor projeto, um tema para a Cyanogenmod 13, mas avisa que não vai parar por aí.
+                Anda no curso de Engenharia de Computadores e Telemática, na Universidade de Aveiro
+                Autoavaliação: Penso que contribuí muito para a construção do website, pois ajudei em todas as páginas e detalhes. Participação de 90% </p>
+
+
+
+
+              </div>
+			</div>
+
+            <!-- Foother -->
+            <br>
+            <br> <!-- espaço para a card e footer -->
+            <br>
+            <footer class="mdl-mini-footer"; id = "footerstyle";>
+                <div class="mdl-mini-footer__left-section">
+                  <div class="mdl-logo">Android</div>
+                  <ul class="mdl-mini-footer__link-list">
+                  <li>
+                </li>
+                </ul>
+                <a href="http://wwww.ua.pt/">
+                  <img src="imagens/ua.png" id = "dim2">
+                </a>
+                </div>
+              </footer>
+
+        </div>
+      </section>
+      <section class="mdl-layout__tab-panel" id="fixed-tab-3">
+        <div class="page-content"><!-- Your content goes here --></div>
+      </section>
+    </main>
+  </div>
+
+  <!-- |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->

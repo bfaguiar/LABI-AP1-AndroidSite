@@ -1,0 +1,198 @@
+<html>
+<head>
+  <meta charset = "UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="A front-end template that helps you build fast, modern mobile web apps.">
+
+    <!-- ESTILOS DA PÁGINA -->
+        <link rel="stylesheet" href="estilos/material.css">
+        <script src="scripts/material.js"></script>
+         <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <link rel="stylesheet" href="estilos/font.css" type="text/css">
+        <script src = "http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"> </script>
+
+
+
+<title>  Android </title>
+<link rel="shortcut icon" type="image/x-icon" href="google_android.png" />
+  <style type="text/css">
+
+  #footerstyle {
+    position: relative;
+  top: 900px;
+  }
+  #fixed {
+  position: fixed;
+  z-index: 999;
+  bottom: 0;
+  right: 0;
+}
+
+#relativo {
+  position: relative;
+  top: 150px;
+  left: 50px;
+}
+
+#pos1 {
+  position: relative;
+  top: 240px;
+  left: 100px;
+
+}
+
+#pos2 {
+  position: relative;
+  top: 246px;
+  left: 106px;
+}
+
+#size {
+  position: relative;
+  top: 200px;
+  left: 1185px;
+  width: 650px;
+  height: 650px;
+
+
+}
+
+#dim {
+  width: 45px;
+  height: 45px;
+}
+
+#space {
+    top: 4px;
+    left: -4px;
+    font-family: Android;
+    font-size: 35px;
+}
+@font-face {
+  font-family: 'Android';
+  font-style: normal;
+  font-weight: 500;
+  src: url(Android.ttf);
+}
+
+#dim2 {
+  width: 200px;
+  height: 45px;
+}
+</style>
+
+</head>
+<body bgcolor ="#E8E8E8">
+
+  <!-- BARRA DE NAVEGAçÂO ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+  <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header mdl-layout--fixed-tabs"; id="fixed";>
+    <header class="mdl-layout__header">
+      <div class="mdl-layout__header-row">
+        <!-- Título -->
+        <span class="mdl-layout-title" id = "space">KERNELS</span>
+      </div>
+      <!-- Tabs -->
+      <div class="mdl-layout__tab-bar mdl-js-ripple-effect">
+		<a href="#fixed-tab-1" class="mdl-layout__tab is-active">KERNEL</a>
+        <a href="#fixed-tab-2" class="mdl-layout__tab">CUSTOM KERNEL</a>
+
+
+      </div>
+    </header>
+    <div class="mdl-layout__drawer">
+      <span class="mdl-layout-title">MENU</span>
+      <nav class="mdl-navigation">
+
+        <a class="mdl-navigation__link" href="index.html">HOME</a>
+        <a class="mdl-navigation__link" href="GOOGLE_ANDROID.html">GOOGLE E ANDROID</a>
+        <a class="mdl-navigation__link" href="AOPS%20E%20CUSTOM%20ROMS.html">AOSP E COSTUM ROMS</a>
+        <a class="mdl-navigation__link" href="COMUNIDADES.html">COMUNIDADES</a>
+        <a class="mdl-navigation__link" href="KERNELS.html">KERNELS</a>
+        <a class="mdl-navigation__link" href="RUNTIME.html">RUNTIME</a>
+        <a class="mdl-navigation__link" href="DISTRIBUIÇÕESANDROID.html">DISTRIBUIÇÕES ANDROID</a>
+        <a class="mdl-navigation__link" href="ANDROIDWEARAUTOTV.html">ANDROID WEAR/AUTO/TV</a>
+        <a class="mdl-navigation__link" href="bioref.html">REFERÊNCIAS BIBLIOGRÁFICAS</a>
+      </nav>
+    </div>
+    <main class="mdl-layout__content">
+      <section class="mdl-layout__tab-panel is-active" id="fixed-tab-1">
+        <div class="page-content"><div class="mdl-cell mdl-cell--6-col mdl-cell--2-col-phone mdl-cell--6-col-tablet">
+			<h2 id = "pos2" class="mdl-cell mdl-cell--6-col mdl-cell--2-col-phone mdl-cell--6-col-tablet">Kernel</h2>
+				<p id="pos1">   O sistema android tem como base o kernel do Linux, mais precisamente
+							do ramo LTS (suporte ao longo do tempo), mas não se trata exatamente do
+							mesmo kernel usado por outros sistemas operacionais baseados em Linux. O
+							kernel Linux usado no android possui profundas alterações na sua arquitetura
+							implementadas pela Google.
+							O kernel é um dos mais importantes componentes de um sistema operativo,
+							sendo o responsável pela interação entre o software e o hardware, ou seja, é
+							o kernel que controla os recursos de um sistema permitindo que os programas
+							façam uso deles. É esta a razão para a qual os desenvolvedores android demoram
+							algum tempo a realizar uma nova port para os seus dispositivos, pois o hardware
+							difere de dispositivo para dispositivo.
+
+							Segundo alguns engenheiros o android não é Linux no tradicional estilo Unix,
+							pois não inclui certos componentes que são tipicamente encontrados nas distribuições
+							Linux, mas mesmo assim o android é considerada uma distribuição
+							Linux de acordo com a Linux Foundation.</p>
+					</div>
+				</div>
+        <br>
+        <br> <!-- espaço para a card e footer -->
+        <br>
+        <footer class="mdl-mini-footer"; id = "footerstyle";>
+            <div class="mdl-mini-footer__left-section">
+              <div class="mdl-logo" href = "home.html">Android</div>
+              <ul class="mdl-mini-footer__link-list">
+                <li><a href="#">Referências Bibliográficas</a></li>
+              </ul>
+              <img src="imagens/ua.png" href="http://www.ua.pt/" id = "dim2">
+            </div>
+          </footer>
+      </section>
+      <section class="mdl-layout__tab-panel" id="fixed-tab-2">
+        <div class="page-content">
+			<div class="mdl-cell mdl-cell--6-col mdl-cell--2-col-phone mdl-cell--6-col-tablet">
+				<h2 id="pos2" class="mdl-cell mdl-cell--6-col mdl-cell--2-col-phone mdl-cell--6-col-tablet">Custom Kernels</h2>
+					<p id="pos1">Apesar de o Kernel já vir dentro do firmware, este pode ser também desenvolvido
+								à parte. Um Custom Kernel pode ser desenvolvido e optimizado de modo a melhorar a performance,
+								estabilidade, fluidez e bateria do sistema Android.
+
+								Estas melhorias são obtidas através da modificação do Governador da CPU, do escalonamento
+								e através do overclocking (opcional). O Governador da CPU não é
+								nada mais que o comportamento (perfil) da CPU ao realizar determinadas
+								tarefas. As OEMs, normalmente não permitem ao utilizador escolher
+								o perfil da CPU, por questões de segurança em relação aos utilizadores menos
+								experientes, no entanto qualquer desenvolvedor pode adicionar diferentes perfis
+								de governador da CPU ao seu Custom Kernel.
+								Muito importante na criação de Kernels personalizados é a utilização de Schedulers
+								(escalonadores de processos) editados, já que são eles que vão ditar como o sistema
+								deve funcionar ao alterar os diversos perfils do governador e se quando deve
+								alterar os perfils automanticamente em determinadas situações.</p>
+						</div>
+					</div>
+          <br>
+          <br> <!-- espaço para a card e footer -->
+          <br>
+          <footer class="mdl-mini-footer"; id = "footerstyle";>
+              <div class="mdl-mini-footer__left-section">
+                <div class="mdl-logo" href = "home.html">Android</div>
+                <ul class="mdl-mini-footer__link-list">
+                  <li><a href="#">Referências Bibliográficas</a></li>
+                </ul>
+                <img src="imagens/ua.png" href="http://www.ua.pt/" id = "dim2">
+              </div>
+            </footer>
+      </section>
+    </main>
+  </div>
+
+  <!-- |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+
+  <!-- PÁGINA HOME ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+
+</div>
+</body>
+</html>
+
+<!-- ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->

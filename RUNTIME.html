@@ -1,0 +1,289 @@
+<html>
+<head>
+  <meta charset = "UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="A front-end template that helps you build fast, modern mobile web apps.">
+
+    <!-- ESTILOS DA PÁGINA -->
+        <link rel="stylesheet" href="estilos/material.css">
+        <script src="scripts/material.js"></script>
+         <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <link rel="stylesheet" href="estilos/font.css" type="text/css">
+
+
+<title>  Android </title>
+<link rel="shortcut icon" type="image/x-icon" href="google_android.png" />
+  <style type="text/css">
+
+  #footerstyle {
+    position: relative;
+  top: 900px;
+  }
+  #fixed {
+  position: fixed;
+  z-index: 999;
+  bottom: 0;
+  right: 0;
+}
+
+#relativo {
+  position: relative;
+  top: 150px;
+  left: 50px;
+}
+
+#pos1 {
+  position: relative;
+  top: 140px;
+  left: 100px;
+
+}
+
+#pos2 {
+  position: relative;
+  top: 126px;
+  left: 106px;
+}
+
+#pos5 {
+  position: relative;
+  top: 300px;
+  left: 106px;
+}
+#pos6 {
+  position: relative;
+  top: 350px;
+  left: 106px;
+}
+
+#size {
+  position: relative;
+  top: 200px;
+  left: 1185px;
+  width: 650px;
+  height: 650px;
+
+
+}
+
+#dim {
+  width: 45px;
+  height: 45px;
+}
+
+#space {
+    top: 4px;
+    left: -4px;
+    font-family: Android;
+    font-size: 35px;
+}
+@font-face {
+  font-family: 'Android';
+  font-style: normal;
+  font-weight: 500;
+  src: url(Android.ttf);
+}
+
+#tabela {
+  top: 200px;
+  left: 106px;
+}
+
+#dim2 {
+  width: 200px;
+  height: 45px;
+}
+
+
+</style>
+
+</head>
+<body bgcolor ="#E8E8E8">
+
+  <!-- BARRA DE NAVEGAçÂO ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+  <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header mdl-layout--fixed-tabs"; id="fixed";>
+    <header class="mdl-layout__header">
+      <div class="mdl-layout__header-row">
+        <!-- Título -->
+        <span class="mdl-layout-title" id = "space">RUNTIME</span>
+      </div>
+      <!-- Tabs -->
+      <div class="mdl-layout__tab-bar mdl-js-ripple-effect">
+        <a href="#fixed-tab-1" class="mdl-layout__tab is-active">RUNTIMES </a>
+        <a href="#fixed-tab-2" class="mdl-layout__tab">RESULTADOS / ANÁLISE </a>
+
+
+      </div>
+    </header>
+    <div class="mdl-layout__drawer">
+      <span class="mdl-layout-title">MENU</span>
+      <nav class="mdl-navigation">
+
+        <a class="mdl-navigation__link" href="index.html">HOME</a>
+        <a class="mdl-navigation__link" href="GOOGLE_ANDROID.html">GOOGLE E ANDROID</a>
+        <a class="mdl-navigation__link" href="AOPS%20E%20CUSTOM%20ROMS.html">AOSP E COSTUM ROMS</a>
+        <a class="mdl-navigation__link" href="COMUNIDADES.html">COMUNIDADES</a>
+        <a class="mdl-navigation__link" href="KERNELS.html">KERNELS</a>
+        <a class="mdl-navigation__link" href="RUNTIME.html">RUNTIME</a>
+        <a class="mdl-navigation__link" href="DISTRIBUIÇÕESANDROID.html">DISTRIBUIÇÕES ANDROID</a>
+        <a class="mdl-navigation__link" href="ANDROIDWEARAUTOTV.html">ANDROID WEAR/AUTO/TV</a>
+        <a class="mdl-navigation__link" href="bioref.html">REFERÊNCIAS BIBLIOGRÁFICAS</a>
+      </nav>
+    </div>
+    <main class="mdl-layout__content">
+      <section class="mdl-layout__tab-panel is-active" id="fixed-tab-1">
+        <div class="page-content mdl-cell mdl-cell--6-col mdl-cell--2-col-phone mdl-cell--6-col-tablet">
+          <h3 id = "pos2" class="mdl-cell mdl-cell--6-col mdl-cell--2-col-phone mdl-cell--6-col-tablet" style = "color: #303030"> Runtime (ART e Dalvik)</h3>
+        <p id="pos1" class = "mdl-typography--text-justify">
+          Diferente de outros sistemas operativos móveis, o Android necessita de um
+sistema de emulação para conseguir executar os programas desenvolvidos para
+o sistema, através de uma máquina virtual. Isto é uma pequena desvantagem
+do Android já que atrasa o tempo de resposta das aplicações, além de gastar
+alguma bateria e memória (daí o Android precisar de hardware mais avançado
+em comparação com outros sistemas). Até ao Android 4.4.4 (Kitkat), o sistema
+operativo usava como sistema de emulação, uma máquina virtual criada pela
+Google, chamada de Dalvik. No entanto, como runtime Dalvik não consegue
+aguentar com muitos programas pesados, a Google necessitou de criar um novo
+runtime, o ART. Em comparação com o Dalvik, o ART utiliza um sistema de
+compilação "Ahead-of-Time", compilando os códigos de execução na altura em
+que as aplicações são instaladas e não apenas quando as aplicações são corridas,
+como acontecia com o Dalvik. Durante a resolução deste trabalho foi feito uma
+série de testes a estes dois Runtimes (ART e Dalvik), como podemos ver no
+na tabela em "Resultados e análise".
+</p>
+        </div>
+
+        <!-- Foother -->
+        <br>
+        <br> <!-- espaço para a card e footer -->
+        <br>
+        <footer class="mdl-mini-footer"; id = "footerstyle";>
+            <div class="mdl-mini-footer__left-section">
+              <div class="mdl-logo">Android</div>
+              <ul class="mdl-mini-footer__link-list">
+                <li><a href="">Referências Bibliográficas</a></li>
+              <li>
+            </li>
+            </ul>
+            <a href="http://wwww.ua.pt/">
+              <img src="imagens/ua.png" id = "dim2">
+            </a>
+            </div>
+          </footer>
+
+
+      </section>
+      <section class="mdl-layout__tab-panel" id="fixed-tab-2">
+        <div class="page-content mdl-cell mdl-cell--6-col mdl-cell--2-col-phone mdl-cell--6-col-tablet">
+
+          <h3 id = "pos2" class="mdl-cell mdl-cell--6-col mdl-cell--2-col-phone mdl-cell--6-col-tablet" style = "color: #303030"> Resultados</h3>
+        <p id="pos1" class = "mdl-typography--text-justify">
+          Durante a Resolução deste trabalho foi testado os dois Runtimes do Android (como podemos ver na tabela a baixo):
+ART e Dalvik. O equipamento usado durante os testes foi um OnePlus One,
+com duas versões Android diferentes: Android Kitkat (4.4.4) e Android Lollipop
+(5.1). Os benchmarks usados para comparação dos Runtimes foram o AnTuTu
+Benchmark v5.7.1 e o Geekbench 3, dois dos melhores benchmarks para Android
+da atualidade, de acordo com inúmeros sites de tecnologia e empresas do ramo.
+</p>
+
+        <table id = "tabela" class="mdl-data-table mdl-js-data-table mdl-shadow--2dp" class="mdl-cell mdl-cell--6-col mdl-cell--2-col-phone mdl-cell--6-col-tablet" >
+  <thead>
+    <tr>
+      <th class="mdl-data-table__cell--non-numeric">Dalvik (Android 4.4.4)</th>
+      <th>Pontos/Score</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="mdl-data-table__cell--non-numeric">Antutu Benchmark</td>
+      <td>45723</td>
+    </tr>
+    <tr>
+      <td class="mdl-data-table__cell--non-numeric"> Geekbench 3 Single-Core</td>
+      <td>921</td>
+    </tr>
+    <tr>
+      <td class="mdl-data-table__cell--non-numeric">Geekbench 3 Multi-Core</td>
+      <td>2497</td>
+    </tr>
+  </tbody>
+  <thead>
+    <tr>
+      <th class="mdl-data-table__cell--non-numeric">ART (Android 4.4.4)</th>
+      <th>Pontos/Score</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="mdl-data-table__cell--non-numeric">Antutu Benchmark</td>
+      <td>42854<td>
+    </tr>
+    <tr>
+      <td class="mdl-data-table__cell--non-numeric"> Geekbench 3 Single-Core</td>
+      <td>886</td>
+    </tr>
+    <tr>
+      <td class="mdl-data-table__cell--non-numeric">Geekbench 3 Multi-Core</td>
+      <td>2165</td>
+    </tr>
+  </tbody>
+  <thead>
+    <tr>
+      <th class="mdl-data-table__cell--non-numeric">ART (Android 5.1 Lollipop)</th>
+      <th>Pontos/Score</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="mdl-data-table__cell--non-numeric">Antutu Benchmark</td>
+      <td>49114</td>
+    </tr>
+    <tr>
+      <td class="mdl-data-table__cell--non-numeric"> Geekbench 3 Single-Core</td>
+      <td>962</td>
+    </tr>
+    <tr>
+      <td class="mdl-data-table__cell--non-numeric">Geekbench 3 Multi-Core</td>
+      <td>3162</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id = "pos5" class="mdl-cell mdl-cell--6-col mdl-cell--2-col-phone mdl-cell--6-col-tablet" style = "color: #303030"> Análise</h3>
+<p id="pos6" class = "mdl-typography--text-justify">
+De acordo com os resultados obtidos no capítulo 4, o Runtime Dalvik obtem
+melhor desempenho que o Runtime ART quando a versão Android se encontra
+na Kitkat. Estes resultados são, à primeira vista, um pouco contraditórios pois
+era de esperar que o ART obtivesse melhores resultados. No entanto, tem que
+se considerar que o Runtime ART ainda se encontrava num estado experimental
+(ou beta). Já nos benchmarks obtidos na versão Lollipop do Android, o ART
+apresenta resultados bem mais satisfatórios que o Dalvik, pois a versão do ART
+já se encontra no estado mais estável.
+</p>
+</div>
+
+<!-- Foother -->
+<br>
+<br> <!-- espaço para a card e footer -->
+<br>
+<footer class="mdl-mini-footer"; id = "footerstyle";>
+    <div class="mdl-mini-footer__left-section">
+      <div class="mdl-logo">Android</div>
+      <ul class="mdl-mini-footer__link-list">
+        <li><a href="">Referências Bibliográficas</a></li>
+      <li>
+    </li>
+    </ul>
+    <a href="http://wwww.ua.pt/">
+      <img src="imagens/ua.png" id = "dim2">
+    </a>
+    </div>
+  </footer>
+
+
+      </section>
+    </main>
+  </div>
+</body>
+</html>
